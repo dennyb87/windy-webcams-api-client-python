@@ -1,7 +1,5 @@
 from distutils.core import setup
 
-from setuptools import find_packages
-
 setup(
     name="windy-webcams-api-client-python",
     version="0.1.0",
@@ -12,6 +10,6 @@ setup(
     install_requires=[
         "requests==2.31.0",
     ],
-    packages=find_packages(),
+    packages=["windy_webcams_api", "v3"],
     package_dir={"": "src"},
 )
