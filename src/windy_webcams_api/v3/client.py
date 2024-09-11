@@ -2,7 +2,7 @@ from typing import Iterable, Optional
 
 import requests
 
-from src.windy_webcams_api.v3.constants import Category, Continent, WebcamFeature
+from windy_webcams_api.v3.constants import Category, Continent, WebcamFeature
 
 
 class WindyWebcamsClient:

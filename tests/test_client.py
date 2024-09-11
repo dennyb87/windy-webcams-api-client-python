@@ -4,8 +4,8 @@ from copy import deepcopy
 
 import responses
 
-from src.windy_webcams_api.v3.client import WindyWebcamsClient
-from src.windy_webcams_api.v3.constants import Category, Continent, WebcamFeature
+from windy_webcams_api.v3.client import WindyWebcamsClient
+from windy_webcams_api.v3.constants import Category, Continent, WebcamFeature
 from tests.sample_responses import (
     COUNTRIES_DATA,
     REGIONS_DATA,
