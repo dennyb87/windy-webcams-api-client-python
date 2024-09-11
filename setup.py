@@ -12,7 +12,6 @@ setup(
     install_requires=[
         "requests==2.31.0",
     ],
-    packages=["windy_webcams_api"],
-    package_dir={"": "src"},
     packages=find_packages(),
+    package_dir={"": "src"},
 )
